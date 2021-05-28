@@ -7,7 +7,7 @@ class Account {
         $this->errorArray = array();
     }
 
-    public function register($un, $fn, $em, $em2, $pw, $pw2) {
+    public function register($un, $fn, $ln, $em, $em2, $pw, $pw2) {
         $this->validateUsername($un);
         $this->validateFirstname($fn);
         $this->validateLastname($ln);
@@ -18,9 +18,16 @@ class Account {
         if(empty($this->errorArray) == true) {
             //insert into db
             return true;
-        } elese {
+        } else {
             return false;
         }
+    }
+
+    public function getError($error) {
+        if(!in_array($error, $this->errorArray)) {
+            $error = "";
+        }
+        return "<span class='errorMessage'>$error</span>";
     }
 
     private function validateUsername($un) {
@@ -52,7 +59,7 @@ class Account {
     }
     
     private function validateEmails($em, $em2) {
-        if($em != em2) {
+        if($em != $em2) {
             array_push($this->errorArray, "Your emails do not match");
             return;
         }
