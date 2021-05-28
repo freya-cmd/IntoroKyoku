@@ -1,4 +1,23 @@
 <!DOCTYPE html>
+<?php
+
+if(isset($_POST['loginButton'])) {
+    //Login Button has been clicked
+
+}
+
+if(isset($_POST['registerButton'])) {
+    //Register Button has been clicked
+    $username
+
+    
+
+}
+
+
+?>
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -63,7 +82,7 @@
         <input id="password" name="password" type="password" required>
         </p>
 
-        <button type="submit" name="registerButton">Sign Up>/button>
+        <button type="submit" name="registerButton">Sign Up</button>
         </form>
 
     </div>
