@@ -54,16 +54,16 @@
         </p>
 
         <p>
-        <label for="loginPassword">Password</label>
+        <label for="password">Password</label>
         <input id="password" name="password" type="password" required>
         </p>
 
         <p>
-        <label for="loginPassword">Password</label>
+        <label for="password2">Confirm Password</label>
         <input id="password" name="password" type="password" required>
         </p>
 
-        <button type="submit" name="loginButton">Login</button>
+        <button type="submit" name="registerButton">Sign Up>/button>
         </form>
 
     </div>
