@@ -45,7 +45,7 @@ class Account {
     
 
         if(strlen($fn) > 25 || strlen($fn) < 2) {
-            array_push($this->errorArray, "Your first name must be between 5 and 25 characters");
+            array_push($this->errorArray, Constants::$usernameCharacters);
             return;
         }
     }
