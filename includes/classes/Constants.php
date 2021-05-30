@@ -12,6 +12,8 @@ class Constants {
         public static $usernameTaken = "Username already exists!";
         public static $emailTaken = "E-mail already in use";
 
+        public static $loginFailed = "invalid login credentials";
+
 
 
 }
