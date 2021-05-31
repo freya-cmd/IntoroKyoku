@@ -33,6 +33,29 @@ function getInputValue($name) {
     <title>Audify Welcome</title>
 </head>
 <body>
+<?php
+    if (isset($_POST['registerButton'])) {
+        echo '<script>
+        $(document).ready(function() {
+            $("#loginForm").hide();
+            $("#registerForm").show();
+    });
+</script>';
+    } else {
+        echo '<script>
+        $(document).ready(function() {
+            $("#loginForm").show();
+            $("#registerForm").hide();
+    });
+</script>';
+        
+    }
+
+?>
+
+
+
+
 <div id="background">
 
     <div id="loginContainer">
@@ -112,11 +135,12 @@ function getInputValue($name) {
                 </p>
 
                 <button type="submit" name="registerButton">Sign Up</button>
-                </form>
-
                 <div class="hasAccountText">
                     <span id="hideRegister">Click here to log in if you already have an existing account.</span>
             </div>
+                </form>
+
+
 
 
 

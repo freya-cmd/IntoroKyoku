@@ -12,6 +12,7 @@ html, body {
     display: table;
     height: 100%;
     width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpeg);
 }
 
 #loginContainer * {
@@ -106,4 +107,9 @@ margin-top: 15px;
 }
 .hasAccountText {
     text-align: center;
+}
+
+#registerForm,
+#loginForm {
+    display: none;
 }
