@@ -33,6 +33,8 @@ function getInputValue($name) {
     <title>Audify Welcome</title>
 </head>
 <body>
+
+
 <?php
     if (isset($_POST['registerButton'])) {
         echo '<script>
@@ -69,7 +71,7 @@ function getInputValue($name) {
                 <p>
                 <?php echo $account->getError(Constants::$loginFailed);?>
                 <label for="loginUsername">Username</label>
-                <input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. bartSimpson" required>
+                <input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. bartSimpson" value="<?php getInputValue('loginUsername') ?>" required>
                 </p>
 
                 <p>
@@ -144,6 +146,15 @@ function getInputValue($name) {
 
 
 
+            </div>
+            <div id="loginText">
+                <h1>Electronic Music at your disposal.</h1>
+                <h2>All free, all the time.</h2>
+                <ul>
+                <li>Test 1</li>
+                <li>Test 2</li>
+                <li>Test 3</li>
+                </ul>
             </div>
         </div>
     </div>
