@@ -21,6 +21,7 @@ function getInputValue($name) {
 
 
 <link rel="stylesheet" href="assets/css/register.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <html lang="en">
 <head>
@@ -53,6 +54,12 @@ function getInputValue($name) {
 
                 <button type="submit" name="loginButton">Login</button>
                 </form>
+
+            <div class="hasAccountText">
+                <a href="#">
+                    <span id="hideLogin">Click here to sign up for an account!</span>
+                </a>
+            </div>
 
 
                 <form id='registerForm' action="register.php" method="POST">
@@ -106,6 +113,14 @@ function getInputValue($name) {
 
                 <button type="submit" name="registerButton">Sign Up</button>
                 </form>
+
+                <div class="hasAccountText">
+                <a href="#">
+                    <span id="hideRegister">Click here to log in if you already have an existing account.</span>
+                </a>
+            </div>
+
+
 
             </div>
         </div>
