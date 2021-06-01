@@ -28,7 +28,14 @@
 <div id="nowPlayingBarContainer">
     <div id="nowPlayingBar">
 
-    <div id="nowPlayingLeft">
+
+        <div id="nowPlayingLeft">
+
+            <div class="content">
+                <span class="albumLink">
+                <img src="https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673.png" class ="albumArtwork">
+                </span>
+            </div>
 
         </div>
 
