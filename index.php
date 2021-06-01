@@ -25,6 +25,8 @@
 
 <body>
 
+<div id="mainContainer">
+
 <div id="nowPlayingBarContainer">
     <div id="nowPlayingBar">
 
@@ -129,6 +131,13 @@
 
     </div>
 </div>
+
+
+</div>
+
+
+
+
 
 
 
