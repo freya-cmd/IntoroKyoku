@@ -40,6 +40,8 @@ html, body {
 #nowPlayingRight {
     width: 30%;
     min-width: 180px;
+    position: relative;
+    margin-top: 16px;
 }
 
 #nowPlayingBar .content {
@@ -131,4 +133,15 @@ text-align: center;
 #nowPlayingLeft .trackInfo .artistName span {
     font-size: 12px;
     color: #a0a0a0;
+}
+
+.volumeBar {
+    width: 180px;
+    position: absolute;
+    right: 0;
+
+}
+
+.volumeBar .progressBar {
+width: 125px;
 }

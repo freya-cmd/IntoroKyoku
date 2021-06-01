@@ -91,12 +91,11 @@
         <span class="progressTime current">0.00</span>
             <div class="progressBar">
                 <div class="progressBarBg">
-                    <div class="progress">
-
-                        </div>
+                    <div class="progress"></div>
                     </div>
-
                 </div>
+
+
         <span class="progressTime remaining">0.00</span>
 
             </div>
@@ -107,6 +106,21 @@
         </div>
 
     <div id="nowPlayingRight">
+
+    <div class="volumeBar">
+
+        <button class="controlButton volume" title="Volume Button">
+            <img src="assets/images/volume.png" alt="Volume">
+
+        </button>
+
+        <div class="progressBar">
+                <div class="progressBarBg">
+                    <div class="progress"></div>
+                    </div>
+                </div>
+
+</div>
 
         </div>
 
