@@ -35,6 +35,20 @@
                 <span class="albumLink">
                 <img src="https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673.png" class ="albumArtwork">
                 </span>
+
+                <div class="trackInfo">
+
+                    <span class="trackName">
+                        <span>Track Name!</span>
+                    </span>
+
+                    <span class="artistName">
+                        <span>Artist Name</span>
+                    </span>
+
+                    </div>
+
+
             </div>
 
         </div>
