@@ -19,6 +19,7 @@
 
 
 <link rel="stylesheet" href="assets/css/index.css">
+<script src="assets/js/script.js"></script
 <html>
 <head>
     <title>Document</title>
@@ -27,6 +28,7 @@
 
 
 <body>
+
 
     <div id="mainContainer">
 
