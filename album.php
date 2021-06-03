@@ -1,5 +1,5 @@
 <?php include("includes/header.php");
-<link rel="stylesheet" href="assets/css/album.css">
+
 
 if(isset($_GET['id'])) {
     $albumId=  $_GET['id'];
@@ -11,6 +11,7 @@ $album = new Album($con, $albumId);
 $artist = $album->getArtist();
 
 ?>
+<link rel="stylesheet" href="assets/css/album.css">
 
 <div class="entityInfo">
     <div class="leftSection">
