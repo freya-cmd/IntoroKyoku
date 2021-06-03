@@ -14,7 +14,7 @@
         header("Location: register.php");
     }
 
-    
+
 ?>
 
 
@@ -26,7 +26,7 @@
     <title>Document</title>
 </head>
 
-
+testestest
 
 <body>
 
