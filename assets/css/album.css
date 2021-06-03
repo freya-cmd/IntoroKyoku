@@ -46,3 +46,54 @@
 .trackListRow:hover{
     background-color: #282828;
 }
+.trackCount {
+    width: 8%;
+    float: left;
+}
+.trackCount img {
+    width: 20px;
+    visibility: hidden;
+    position: absolute;
+    cursor: pointer;
+}
+.trackListRow:hover img {
+    visibility: visible;
+}
+.trackListRow .trackCount span {
+    visibility: visible;
+}
+.trackListRow:hover .trackCount span {
+    visibility: hidden;
+}
+
+.trackInfo {
+    width: 45%;
+    float: left;
+}
+
+.trackInfo span {
+    display: block;
+}
+.trackOptions {
+    width: 5%;
+    float: left;
+    text-align: right;
+}
+.trackOptions img {
+    width: 15px;
+    visibility: hidden;
+}
+.trackListRow:hover .trackOptions img {
+    visibility: visible;
+
+}
+
+.trackDuration {
+    width: 12%;
+    float: left;
+    text-align: right;
+}
+.trackInfo .trackName {
+    color:#fff;
+    margin-bottom: 7px;
+}
