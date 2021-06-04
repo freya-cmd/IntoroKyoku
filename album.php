@@ -48,10 +48,10 @@ $artist = $album->getArtist();
                 <span class='trackNumber'>$i</span>
                 </div>
 
-                <div class= 'trackInfo'>
-                    <span class='trackName'>" . $albumSong->getTitle() . "</span>
-                    <span class='artistName'>" . $albumArtist->getName() . "</span>
-                </div>
+                <div class='trackInfo'>
+                <span class='trackName'>" . $albumSong->getTitle() . "</span>
+                <span class='artistName'>" . $albumArtist->getName() . "</span>
+            </div>
 
                 <div class='trackOptions'>
                     <img class='optionsButton' src='assets/images/more.png'>
@@ -70,7 +70,10 @@ $artist = $album->getArtist();
 
     ?>
 
-
+        <script>
+			var tempSongIds = '<?php echo json_encode($songIdArray); ?>';
+			tempPlaylist = JSON.parse(tempSongIds);
+		</script>
 
     </ul>
 </div>

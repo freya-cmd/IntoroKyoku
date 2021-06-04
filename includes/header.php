@@ -20,13 +20,13 @@
 
 <link rel="stylesheet" href="assets/css/index.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="assets/js/script.js"></script
+<script src="assets/js/script.js"></script>
 <html>
 <head>
     <title>Document</title>
 </head>
 
-testestest
+
 
 <body>
 
@@ -39,4 +39,4 @@ testestest
             <?php include("includes/navBarContainer.php"); ?>
 
             <div id="mainViewContainer">
-            <div id="mainContent">
+            <div id="mainContent"> 
