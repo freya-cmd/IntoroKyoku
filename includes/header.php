@@ -10,6 +10,7 @@
 
     if(isset($_SESSION['userLoggedIn'])) {
         $userLoggedIn = $_SESSION['userLoggedIn'];
+        echo "<script>userLoggedIn = '$userLoggedIn';</script";
     } else {
         header("Location: register.php");
     }
@@ -18,12 +19,14 @@
 ?>
 
 
-<link rel="stylesheet" href="assets/css/index.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="assets/js/script.js"></script>
+
 <html>
 <head>
     <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/index.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/js/script.js"></script>
 </head>
 
 
