@@ -11,7 +11,7 @@ $album = new Album($con, $albumId);
 $artist = $album->getArtist();
 
 ?>
-<link rel="stylesheet" href="assets/css/album.css">
+<link rel="stylesheet" href="assets/css/style.css">
 
 <div class="entityInfo">
     <div class="leftSection">
@@ -44,7 +44,7 @@ $artist = $album->getArtist();
 
             echo "<li class='trackListRow'>
                 <div class='trackCount'>
-                <img class='play' src='assets/images/play_dark.png'>
+                <img class='play' src='assets/images/play_dark.png' onclick='setTrack(\"" . $albumSong->getId() . "\", tempPlaylist, true)'>
                 <span class='trackNumber'>$i</span>
                 </div>
 

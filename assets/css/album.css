@@ -1,4 +1,4 @@
-.entityInfo {
+/* .entityInfo {
     padding: 40px 0 10px 0;
     display: inline-block;
     width: 100%;
@@ -10,90 +10,233 @@
     max-width: 250px;
 }
 
-.leftSection img {
+.entityInfo .leftSection img {
     width: 100%;
-    
 }
 
-.rightSection {
+.entityInfo .rightSection {
     width: 70%;
     float: left;
     padding: 5px 10px 5px 40px;
     box-sizing: border-box;
 }
-.rightSection h2 {
+
+.entityInfo .rightSection h2 {
     margin-top: 0px;
 }
-.rightSection p {
+
+.entityInfo .rightSection p {
     color: #939393;
     font-weight: 200;
 }
 
-.trackList {
+.tracklist {
     padding: 0;
 }
-.trackListRow {
+
+.tracklistRow {
     height: 40px;
     padding: 15px 10px;
     list-style: none;
 }
 
-.trackListRow span{
+.tracklistRow span {
     color: #939393;
     font-weight: 200;
 }
 
-.trackListRow:hover{
+.tracklistRow:hover {
     background-color: #282828;
 }
-.trackCount {
+
+.tracklistRow .trackCount {
     width: 8%;
     float: left;
 }
-.trackCount img {
+
+.tracklistRow .trackCount img {
     width: 20px;
     visibility: hidden;
     position: absolute;
     cursor: pointer;
 }
-.trackListRow:hover img {
+
+.tracklistRow:hover .trackCount img {
     visibility: visible;
 }
-.trackListRow .trackCount span {
+
+.tracklistRow .trackCount span {
     visibility: visible;
 }
-.trackListRow:hover .trackCount span {
+
+.tracklistRow:hover .trackCount span {
     visibility: hidden;
 }
 
-.trackInfo {
-    width: 45%;
+.tracklistRow .trackInfo {
+    width: 75%;
     float: left;
 }
 
-.trackInfo span {
+.tracklistRow .trackInfo span {
     display: block;
 }
-.trackOptions {
+
+.tracklistRow .trackOptions {
     width: 5%;
     float: left;
     text-align: right;
 }
-.trackOptions img {
+
+.tracklistRow .trackOptions img {
     width: 15px;
     visibility: hidden;
 }
-.trackListRow:hover .trackOptions img {
-    visibility: visible;
 
+.tracklistRow:hover .trackOptions img {
+    visibility: visible;
 }
 
-.trackDuration {
+.tracklistRow .trackDuration {
     width: 12%;
     float: left;
     text-align: right;
 }
-.trackInfo .trackName {
-    color:#fff;
+
+.tracklistRow .trackInfo .trackName {
+    color: #fff;
     margin-bottom: 7px;
 }
+
+.artistInfo {
+    text-align: center;
+}
+
+.button {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    padding: 15px;
+    min-width: 130px;
+}
+
+.button.green {
+    background-color: #2ebd59;
+    border-color: #2ebd59;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #939393;
+    margin-bottom: 20px;
+}
+
+.tracklistContainer h2,
+.gridViewContainer h2,
+.artistsContainer h2 {
+    text-align: center;
+}
+
+[role="link"] {
+    cursor: pointer;
+}
+
+.searchContainer {
+    background-color: #242424;
+    padding: 20px 28px;
+}
+
+.searchContainer h4 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.searchContainer .searchInput {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 62px;
+    letter-spacing: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.searchResultRow {
+    padding: 15px 10px;
+}
+
+.searchResultRow:hover {
+    background-color: #282828;
+}
+
+.searchResultRow .artistName span {
+    color: #fff;
+}
+
+.noResults {
+    margin: 15px;
+    display: block;
+}
+
+.buttonItems .button {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.playlistsContainer {
+    padding: 10px 0;
+}
+
+
+.playlistImage {
+    border: 3px solid #282828;
+    padding: 10px;
+}
+
+.optionsMenu {
+    position: fixed;
+    background-color: #282828;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    z-index: 1000;
+    display: none;
+}
+
+.optionsMenu .item {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: rgba(147, 147, 147, 0.8);
+    cursor: pointer;
+    height: 40px;
+    background-color: #282828;
+    font-size: 14px;
+}
+
+.optionsMenu .item:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+.optionsMenu select {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.userInfo h1 {
+    text-align: center;
+}
+
+
