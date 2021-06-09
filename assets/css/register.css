@@ -6,13 +6,13 @@ html, body {
 }
 
 #background {
-    background-image: url(../images/bg.jpeg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../images/bg.jpg);
+    background-size: contain;
+    background-position: center center;
     display: table;
     height: 100%;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpg);
 }
 
 #loginContainer * {

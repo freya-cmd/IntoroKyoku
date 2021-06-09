@@ -10,4 +10,13 @@ $(document).ready(function() {
         $("#registerForm").hide();
     });
 
+    $('h1').on('focus', function(){
+        $('#mySpan').animate({
+            'opacity' : 0
+        }, 400, function(){
+            $(this).html('Test test test').animate({'opacity': 1}, 400);});
+        
+    });    
+    
+
 });
